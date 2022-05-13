@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    background-color: #9bc1bc;
+}
+.header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ed6a5a;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 41rem;
+}
+.conteiner {
+    width: 30rem;
+    height: 100%;
+    margin: 1rem;
+    background-color: #f4f1bb;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.conteiner .title {
+    padding-bottom: 0.5rem;
+}
+.conteiner .input-conteiner {
+    display: flex;
+    flex-direction: column;
+}
+.conteiner .title{
+    text-align: center;
+}
+.conteiner div:first-child .pantalla {
+    width: 100%;
+}
+.indicaciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.5rem;
+    padding: 0 2rem;
+    margin: 0.5rem 0;
+}
+.indicaciones input {
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    
+}
+.conteiner button {
+    margin: 0.2rem;
+    height: 2.4rem;
+    border: none;
+    border-radius: 0.8rem;
+    background-color: #ed6a5a;
+    cursor: pointer;
+    font-size: 1.6rem;
+    justify-self: flex-end;
+}
+.conteiner_buttom {
+    display: flex;
+    flex-direction: column;
+}

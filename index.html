@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FigurasGeometricas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Figuras Geometricas</h1>
+        <p class="header__subtitle">este es el primer taller del curso practico de Javascript</p>
+    </header>
+    <main class="main">
+        <section class="conteiner cuadrado">
+            <div>
+                <h2 class="title">Calcula el area y<br> perimetro de un Cuadrado</h2>
+                <textarea class="pantalla uno" name="" id="" cols="30" rows="10" disabled></textarea>    
+            </div>
+            <div class="input-conteiner">
+                <label for="inputCuadrado" class="indicaciones">
+                    Medida de Un Lado
+                    <input type="number" id="inputCuadrado">
+                </label>
+            </div>
+            <div class="conteiner_buttom">
+                <button onclick="calcularPerimetroCuadrado()">
+                    Perimetro
+                </button>
+                <button onclick="calcularAreaCuadrado()">
+                    Area
+                </button>
+            </div>
+        </section>
+        <section class="conteiner triangulo">
+            <div>
+                <h2 class="title">Calcula el perimetro de un Triangulo</h2>
+                <textarea class="pantalla" name="" id="" cols="30" rows="10" disabled></textarea>
+            </div>
+            <div class="input-conteiner">
+                <label for="1erLado" class="indicaciones">
+                    Medida 1er Lado
+                    <input type="number" id="1erLado">
+                </label>
+                <label for="2doLado" class="indicaciones">
+                    Medida 2do Lado
+                    <input type="number" id="2doLado">
+                </label>
+                <label for="base" class="indicaciones">
+                    Medida Base
+                    <input type="number" id="base">
+                </label>
+
+                <button onclick="calcularPerimetroTriangulo()">
+                    Perimetro
+                </button>
+            </div>
+        </section>
+        <section class="conteiner triangulo">
+            <div>
+                <h2 class="title">Calcula el Area de un Triangulo</h2>
+                <textarea class="pantalla uno" name="" id="" cols="30" rows="10" disabled></textarea>
+            </div>
+            <div class="input-conteiner">
+                <label for="baseArea" class="indicaciones">
+                    Medida Base
+                    <input type="number" id="baseArea">
+                </label>
+                <label for="altura" class="indicaciones">
+                    Medida Altura
+                    <input type="number" id="altura">
+                </label>
+                <button onclick="calcularAreaTriangulo()">
+                    Area
+                </button>
+            </div>
+        </section>
+        <section class="conteiner cuadrado">
+            <div>
+                <h2 class="title">Calcula el area y<br> perimetro de un Circulo</h2>
+                <textarea class="pantalla" name="" id="" cols="30" rows="10" disabled></textarea>    
+            </div>
+            <div class="input-conteiner">
+                <label for="radio" class="indicaciones">
+                    Medida Radio
+                    <input type="number" id="radio">
+                </label>
+                <button onclick="calcularDiametroCirculo()">
+                    Diametro
+                </button>
+                <button onclick="calcularPerimetroCirculo()">
+                    Perimetro
+                </button>
+                <button onclick="calcularAreaCirculo()">
+                    Area
+                </button>
+            </div>
+        </section>
+    </main>
+    <script src="/js/app.js"></script>
+</body>
+</html>
